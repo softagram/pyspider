@@ -21,7 +21,7 @@ class BaseDB:
 
     dbcur should be overwirte
     '''
-    __tablename__ = None
+    __tablename__ = 'failing'
     placeholder = '%s'
     maxlimit = -1
 
